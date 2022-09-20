@@ -1,0 +1,50 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  background: rgb(68, 68, 68);
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 10rem;
+}
+
+.gridBox {
+  border: solid 5px black;
+  border-radius: 1%;
+  height: 800px;
+  width: 750px;
+  background-color: white;
+}
+
+.gridItem {
+  border: solid 1px rgba(0, 0, 0, 0.027);
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 35px;
+}
+
+button {
+  margin: 25px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+button:hover {
+  background-color: rgb(255, 140, 0);
+}
+
+.rangeValue {
+  font-size: 25px;
+  color: white;
+  margin: 15px;
+}
